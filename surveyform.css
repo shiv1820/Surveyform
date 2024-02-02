@@ -1,16 +1,17 @@
 body{
+    font-family: roboto;
     background-image: repeating-conic-gradient(rgb(7, 7, 64) 10%,
      rgb(14, 106, 226) 30%)    
 }
 h1{
-    color: rgba(126, 133, 175, 0.897);
+    color: silver;
 }
 #title{
     font-size: 35px;
 }
 #description{
     font-size: 25px;
-    color: rgba(126, 133, 175, 0.897);
+    color: silver;
 }
 #name,#email{
     margin-top: 4px;
@@ -47,7 +48,7 @@ h1{
     margin-bottom: 15px;
 }
 .question{
-    color:rgba(29, 141, 197, 0.482); 
+    color:silver; 
     font-size: 18px;
     margin-bottom: 4px;
 }
@@ -102,6 +103,7 @@ input[type='checkbox']:after {
 }
 #textarea{
     background-color: transparent;
+    color: antiquewhite;
 }
 button{
     display: block;
