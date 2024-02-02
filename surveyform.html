@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="surveyform.css">
+</head>
+<body>
+
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for the time you give here</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="" required>
+        <label for="email" id="email-label">E-mail</label>
+        <input type="email" id="email" placeholder="" required>
+        <label for="age" id="number-label">Age (Optional)</label>
+        <input type="number"id="number"  min="12" max="40">
+        <select name="" id="dropdown">
+            <option>Select current role</option>
+            <option>Student</option>
+            <option>Full time job</option>
+            <option>Prefer not to say</option>
+        </select>
+        <p class="question">Would You recommend this app to your friend?</p>
+        <input type="radio" value="33" name="Abc" >
+        <label for="" id="def">Definitely</label> 
+        <input type="radio" value="22" name="Xyz" >
+        <label for="" id="maybe">Maybe</label>
+        <p class="question">What Would you like to see improve?</p>
+        <input type="checkbox" value="101" name="">
+       <label for="" id="Frontend">Frontend</label> 
+        <input type="checkbox" value="102" name="">
+       <label for="" id="Backend">Backend</label> 
+         <p class="question">Any comment or suggestion</p>
+         <textarea name="" id="textarea" cols="60" rows="3"></textarea>
+         <button type="submit" id="submit" >Submit</button>
+    </form>
+</body>
+</html>

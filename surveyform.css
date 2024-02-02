@@ -1,0 +1,120 @@
+body{
+    background-image: repeating-conic-gradient(rgb(7, 7, 64) 10%,
+     rgb(14, 106, 226) 30%)    
+}
+h1{
+    color: rgba(126, 133, 175, 0.897);
+}
+#title{
+    font-size: 35px;
+}
+#description{
+    font-size: 25px;
+    color: rgba(126, 133, 175, 0.897);
+}
+#name,#email{
+    margin-top: 4px;
+    display: block;
+    height: 23px;
+    width: 210px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: beige;
+    margin-bottom: 15px;
+}
+#name-label,#email-label,#number-label{
+    color:rgba(126, 133, 175, 0.897); 
+    font-size: 18px;
+}
+#number{
+    margin-top: 4px;
+    display: block;
+    height: 23px;
+    width: 45px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: beige;
+    margin-bottom: 15px;
+}
+#dropdown{
+    margin-top: 4px;
+    display: block;
+    height: 23px;
+    width: 210px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: beige;
+    margin-bottom: 15px;
+}
+.question{
+    color:rgba(29, 141, 197, 0.482); 
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: transparent;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:blue;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+#def,#maybe{
+    color :rgba(126, 133, 175, 0.897); 
+     font-size:16px ;
+     margin-right: 6px;
+}
+
+input[type='checkbox']:after {
+    width: 15px;
+    height: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: transparent;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+#Frontend,#Backend{
+    color :white; 
+    font-size:16px ;
+    margin-right: 6px;   
+}
+#textarea{
+    background-color: transparent;
+}
+button{
+    display: block;
+    margin-top: 25px;
+    border-color: blue;
+    border: 1px;
+    border-radius: 50%;
+    border-style: solid;
+    padding: 5px 12px;
+    position: relative;
+    left: 30px;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+
+}
